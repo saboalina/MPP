@@ -1,12 +1,31 @@
 # Programming-and-design-methods
 
-Week 1 - Model and repository interface implementation 
-Week 2 - Repository implementation 
-Week 3 - service + GUI implementation 
-Week 4 - Networking Java implementation 
-Week 5 - Networking C# implementation 
-Week 6 - .Net Remoting implementation 
-Week 7 - Apache Thrift implementation 
-Week 8 - Hibernate implementation 
-Week 9 - REST Services implementation
-week 10 - REACT implementation
+1. Model and repository interface
+Branch - Week1 (Java and C# implementation)
+
+2. Repository 
+Branch - Week2 (Java and C# implementation)
+
+3. Service + GUI 
+Branch - Week3 (Java and C# implementation)
+
+4. Networking Java
+Branch - Week4 (Java and C# implementation)
+
+5. Networking C#
+Branch - Week4 (Java and C# implementation)
+
+6. .Net Remoting 
+Branch - Week6 (Java and C# implementation)
+
+7. Apache Thrift
+Branch - Week7 (Java and C# implementation)  
+
+8. Hibernate  
+Branch - Week8 (Java and C# implementation)
+
+9. REST Services
+Branch - Week9 (Java and C# implementation)
+
+10. REACT
+Branch - Week10 (Java implementation)
