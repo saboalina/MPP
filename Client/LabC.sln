@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{2E6BE939-F843-437C-B6D7-7B7A2FCA6131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "model", "model\model.csproj", "{A773C05A-62E0-4094-AA92-376E5E88F0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services", "services\services.csproj", "{D0E14DAC-4F88-4DAB-9EED-91285EBFBF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "networking", "networking\networking.csproj", "{14CF2990-8B58-4C80-9A1A-70EB183F6E97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6BE939-F843-437C-B6D7-7B7A2FCA6131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6BE939-F843-437C-B6D7-7B7A2FCA6131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6BE939-F843-437C-B6D7-7B7A2FCA6131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6BE939-F843-437C-B6D7-7B7A2FCA6131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A773C05A-62E0-4094-AA92-376E5E88F0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A773C05A-62E0-4094-AA92-376E5E88F0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A773C05A-62E0-4094-AA92-376E5E88F0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A773C05A-62E0-4094-AA92-376E5E88F0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E14DAC-4F88-4DAB-9EED-91285EBFBF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E14DAC-4F88-4DAB-9EED-91285EBFBF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E14DAC-4F88-4DAB-9EED-91285EBFBF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E14DAC-4F88-4DAB-9EED-91285EBFBF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CF2990-8B58-4C80-9A1A-70EB183F6E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CF2990-8B58-4C80-9A1A-70EB183F6E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CF2990-8B58-4C80-9A1A-70EB183F6E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CF2990-8B58-4C80-9A1A-70EB183F6E97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
