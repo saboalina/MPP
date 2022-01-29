@@ -1,0 +1,45 @@
+2021-03-10 13:20:05,781 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:20:05,803 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:20:05,864 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:20:05,867 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-10 13:20:05,871 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:21:28,078 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:21:28,098 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:21:28,162 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:21:28,165 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-10 13:21:28,169 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:28:44,282 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:28:44,302 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:29:28,103 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:29:28,123 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:29:28,187 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:29:28,189 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-10 13:29:28,193 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:37:40,677 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:37:40,697 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:42:40,656 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:42:40,676 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:42:40,739 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:42:40,741 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-10 13:42:40,745 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:43:50,035 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:43:50,055 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:43:50,117 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:43:50,120 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-10 13:43:50,124 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:45:27,335 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:45:27,358 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:45:27,427 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:45:27,430 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-10 13:45:27,434 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:48:35,982 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:48:36,002 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:48:47,934 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:48:47,955 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:48:56,750 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:48:56,769 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:49:04,038 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-10 13:49:04,057 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-10 13:49:04,121 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-10 13:49:04,124 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-10 13:49:04,128 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
