@@ -1,0 +1,36 @@
+2021-03-20 02:53:49,207 [1] INFO  AgentDbRepository [(null)] - Creating AgentDbRepository
+2021-03-20 02:53:49,230 [1] INFO  AgentDbRepository [(null)] - Entering findOne with value cristi
+2021-03-20 02:53:49,234 [1] INFO  DBUtils [(null)] - Trying to connect to database Data Source=D:/Facultate/MPP/LabC/AgentieDeTurism/bin/Debug/agentie.db;Version=3
+2021-03-20 02:53:49,306 [1] INFO  AgentDbRepository [(null)] - Exiting findOne with value cristi
+2021-03-20 02:53:49,308 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-20 02:53:49,308 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-20 02:53:49,310 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-20 02:53:49,312 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-20 02:53:49,312 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-20 02:53:49,312 [1] INFO  RezervareDbRepository [(null)] - Creating RezervareTaskDbRepository
+2021-03-20 02:53:49,313 [1] INFO  RezervareDbRepository [(null)] - Entering save with value 0;Andrei;0732234723;44;1;Pojorata;A;3/20/2021 2:00:00 AM;170;21
+2021-03-20 02:53:49,336 [1] INFO  RezervareDbRepository [(null)] - Exiting save with value 0;Andrei;0732234723;44;1;Pojorata;A;3/20/2021 2:00:00 AM;170;21
+2021-03-20 02:54:29,617 [1] INFO  AgentDbRepository [(null)] - Creating AgentDbRepository
+2021-03-20 02:54:29,636 [1] INFO  AgentDbRepository [(null)] - Entering findOne with value cristi
+2021-03-20 02:54:29,642 [1] INFO  DBUtils [(null)] - Trying to connect to database Data Source=D:/Facultate/MPP/LabC/AgentieDeTurism/bin/Debug/agentie.db;Version=3
+2021-03-20 02:54:29,707 [1] INFO  AgentDbRepository [(null)] - Exiting findOne with value cristi
+2021-03-20 02:54:29,709 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-20 02:54:29,710 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-20 02:54:29,713 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-20 02:54:29,715 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-20 02:54:29,716 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-20 02:54:29,717 [1] INFO  RezervareDbRepository [(null)] - Creating RezervareTaskDbRepository
+2021-03-20 02:54:29,718 [1] INFO  RezervareDbRepository [(null)] - Entering save with value 0;Andrei;0732234723;44;1;Pojorata;A;3/20/2021 2:00:00 AM;170;21
+2021-03-20 02:54:29,732 [1] INFO  RezervareDbRepository [(null)] - Exiting save with value 0;Andrei;0732234723;44;1;Pojorata;A;3/20/2021 2:00:00 AM;170;21
+2021-03-20 02:55:54,339 [1] INFO  AgentDbRepository [(null)] - Creating AgentDbRepository
+2021-03-20 02:55:54,358 [1] INFO  AgentDbRepository [(null)] - Entering findOne with value cristi
+2021-03-20 02:55:54,363 [1] INFO  DBUtils [(null)] - Trying to connect to database Data Source=D:/Facultate/MPP/LabC/AgentieDeTurism/bin/Debug/agentie.db;Version=3
+2021-03-20 02:55:54,419 [1] INFO  AgentDbRepository [(null)] - Exiting findOne with value cristi
+2021-03-20 02:55:54,422 [1] INFO  ExcursieDbRepository [(null)] - Creating ExcursieTaskDbRepository
+2021-03-20 02:55:54,422 [1] INFO  ExcursieDbRepository [(null)] - Entering findAll
+2021-03-20 02:55:54,426 [1] INFO  ExcursieDbRepository [(null)] - Exiting findAll with value System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-20 02:55:54,427 [1] INFO  ExcursieDbRepository [(null)] - Entering findByNameAndTime with values Pojorata 00:00:00 23:59:59
+2021-03-20 02:55:54,428 [1] INFO  ExcursieDbRepository [(null)] - Exiting findByNameAndTime with values System.Collections.Generic.List`1[AgentieDeTurism.domain.Excursie]
+2021-03-20 02:55:54,428 [1] INFO  RezervareDbRepository [(null)] - Creating RezervareTaskDbRepository
+2021-03-20 02:55:54,429 [1] INFO  RezervareDbRepository [(null)] - Entering save with value 0;Andrei;0732234723;44;1;Pojorata;A;3/20/2021 2:00:00 AM;170;21
+2021-03-20 02:55:54,440 [1] INFO  RezervareDbRepository [(null)] - Exiting save with value 0;Andrei;0732234723;44;1;Pojorata;A;3/20/2021 2:00:00 AM;170;21

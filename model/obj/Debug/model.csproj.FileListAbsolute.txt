@@ -1,0 +1,12 @@
+D:\Facultate\MPP\LabC\model\bin\Debug\model.dll
+D:\Facultate\MPP\LabC\model\bin\Debug\model.pdb
+D:\Facultate\MPP\LabC\model\obj\Debug\model.csprojAssemblyReference.cache
+D:\Facultate\MPP\LabC\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+D:\Facultate\MPP\LabC\model\obj\Debug\model.dll
+D:\Facultate\MPP\LabC\model\obj\Debug\model.pdb
+C:\Users\user\Desktop\LabC\model\bin\Debug\model.dll
+C:\Users\user\Desktop\LabC\model\bin\Debug\model.pdb
+C:\Users\user\Desktop\LabC\model\obj\Debug\model.csprojAssemblyReference.cache
+C:\Users\user\Desktop\LabC\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\LabC\model\obj\Debug\model.dll
+C:\Users\user\Desktop\LabC\model\obj\Debug\model.pdb
