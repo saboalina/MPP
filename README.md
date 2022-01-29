@@ -25,21 +25,21 @@ Branch - Week2 (Java and C# implementation)
 Branch - Week3 (Java and C# implementation)
 
 4. Networking Java              
-Branch - Week4 (Java and C# implementation)
+Branch - Week4 (Java implementation)
 
 5. Networking C#                          
-Branch - Week4 (Java and C# implementation)
+Branch - Week4 (C# implementation)
 
 6. .Net Remoting                          
-Branch - Week6 (Java and C# implementation)
+Branch - Week6 (C# implementation)
 
-7. Apache Thrift                          
+7. Apache Thrift - Client Server                        
 Branch - Week7 (Java and C# implementation)  
 
-8. Hibernate                              
+8. Hibernate - Client Server                              
 Branch - Week8 (Java and C# implementation)
 
-9. REST Services                          
+9. REST Services - Client Server                             
 Branch - Week9 (Java and C# implementation)
 
 10. REACT                               
