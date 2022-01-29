@@ -1,0 +1,319 @@
+18 Mar 2021 18:36:27,082 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {} 
+18 Mar 2021 18:36:27,088 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:36:27,089 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:36:27,089 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... null
+18 Mar 2021 18:36:27,090 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:36:27,090 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:36:27,093 ERROR repository.JdbcUtils 40 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2021 18:36:27,095 TRACE repository.JdbcUtils 56 getConnection - Exit
+18 Mar 2021 18:37:01,279 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {} 
+18 Mar 2021 18:37:01,284 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:37:01,285 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:37:01,285 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... null
+18 Mar 2021 18:37:01,286 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:37:01,286 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:37:01,288 ERROR repository.JdbcUtils 40 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2021 18:37:01,289 TRACE repository.JdbcUtils 56 getConnection - Exit
+18 Mar 2021 18:38:53,750 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 18:38:53,759 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:38:53,760 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:38:53,760 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 18:38:53,761 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:38:53,762 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:38:53,943 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cf6d1be)
+18 Mar 2021 18:38:53,951 ERROR repository.AngajatDBRepository 68 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Angajati.idAngajat)
+18 Mar 2021 18:38:53,952 TRACE repository.AngajatDBRepository 71 save - Exit
+18 Mar 2021 18:38:53,952 TRACE repository.AngajatDBRepository 34 findAll - Enter
+18 Mar 2021 18:38:53,953 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:38:53,953 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cf6d1be)
+18 Mar 2021 18:38:53,955 TRACE repository.AngajatDBRepository 53 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}])
+18 Mar 2021 18:38:53,957 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 18:38:53,959 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:38:53,959 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:38:53,959 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 18:38:53,960 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:38:53,960 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:38:53,961 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28261e8e)
+18 Mar 2021 18:38:53,963 ERROR repository.BiletDBRepository 72 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Bilet.idBilet)
+18 Mar 2021 18:38:53,964 TRACE repository.BiletDBRepository 75 save - Exit
+18 Mar 2021 18:38:53,964 TRACE repository.BiletDBRepository 34 findAll - Enter
+18 Mar 2021 18:38:53,965 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:38:53,965 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28261e8e)
+18 Mar 2021 18:38:53,975 TRACE repository.BiletDBRepository 55 findAll - Exit with([Bilet{numeClient='numeClient1', numeTuristi='numeTuristi1', adresaClient='adresaClient1', nrLocuri=5, zborId=1}, Bilet{numeClient='numeClient2', numeTuristi='numeTuristi2', adresaClient='adresaClient2', nrLocuri=7, zborId=2}, Bilet{numeClient='numeClient3', numeTuristi='numeTuristi3', adresaClient='adresaClient3', nrLocuri=9, zborId=3}, Bilet{numeClient='numeClient4', numeTuristi='numeTuristi4', adresaClient='adresaClient4', nrLocuri=23, zborId=4}, Bilet{numeClient='numeClient5', numeTuristi='numeTuristi5', adresaClient='adresaClient5', nrLocuri=66, zborId=5}, Bilet{numeClient='numeClient100', numeTuristi='numeTuristi100', adresaClient='adresaClient100', nrLocuri=100, zborId=100}])
+18 Mar 2021 18:38:53,978 INFO  repository.ZborDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 18:38:53,978 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:38:53,979 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:38:53,979 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 18:38:53,980 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:38:53,980 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:38:53,981 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@16eb3ea3)
+18 Mar 2021 18:38:53,983 ERROR repository.ZborDBRepository 66 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Zboruri.IdZbor)
+18 Mar 2021 18:38:53,984 TRACE repository.ZborDBRepository 69 save - Exit
+18 Mar 2021 18:38:53,984 TRACE repository.ZborDBRepository 30 findAll - Enter
+18 Mar 2021 18:38:53,985 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:38:53,985 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@16eb3ea3)
+18 Mar 2021 18:38:53,992 TRACE repository.ZborDBRepository 50 findAll - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}, Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}, Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}, Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}, Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}, Zbor{destinatie='destinatie100', dataSiOraPlecarii=2015-03-31, aeroport='aeroport100', nrLocuriDisponibile=100}])
+18 Mar 2021 18:40:01,476 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 18:40:01,483 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:40:01,483 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:40:01,483 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 18:40:01,484 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:40:01,484 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:40:01,657 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cf6d1be)
+18 Mar 2021 18:40:01,665 TRACE repository.AngajatDBRepository 66 save - Saved 1 instances
+18 Mar 2021 18:40:01,666 TRACE repository.AngajatDBRepository 71 save - Exit
+18 Mar 2021 18:40:01,666 TRACE repository.AngajatDBRepository 34 findAll - Enter
+18 Mar 2021 18:40:01,667 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:40:01,667 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cf6d1be)
+18 Mar 2021 18:40:01,669 TRACE repository.AngajatDBRepository 53 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}])
+18 Mar 2021 18:40:01,671 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 18:40:01,672 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:40:01,672 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:40:01,674 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 18:40:01,675 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:40:01,675 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:40:01,677 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@350aac89)
+18 Mar 2021 18:40:01,684 TRACE repository.BiletDBRepository 70 save - Saved 1 instances
+18 Mar 2021 18:40:01,684 TRACE repository.BiletDBRepository 75 save - Exit
+18 Mar 2021 18:40:01,685 TRACE repository.BiletDBRepository 34 findAll - Enter
+18 Mar 2021 18:40:01,685 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:40:01,686 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@350aac89)
+18 Mar 2021 18:40:01,696 TRACE repository.BiletDBRepository 55 findAll - Exit with([Bilet{numeClient='numeClient1', numeTuristi='numeTuristi1', adresaClient='adresaClient1', nrLocuri=5, zborId=1}, Bilet{numeClient='numeClient2', numeTuristi='numeTuristi2', adresaClient='adresaClient2', nrLocuri=7, zborId=2}, Bilet{numeClient='numeClient3', numeTuristi='numeTuristi3', adresaClient='adresaClient3', nrLocuri=9, zborId=3}, Bilet{numeClient='numeClient4', numeTuristi='numeTuristi4', adresaClient='adresaClient4', nrLocuri=23, zborId=4}, Bilet{numeClient='numeClient5', numeTuristi='numeTuristi5', adresaClient='adresaClient5', nrLocuri=66, zborId=5}, Bilet{numeClient='numeClient100', numeTuristi='numeTuristi100', adresaClient='adresaClient100', nrLocuri=100, zborId=100}])
+18 Mar 2021 18:40:01,698 INFO  repository.ZborDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 18:40:01,700 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:40:01,700 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 18:40:01,700 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 18:40:01,701 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 18:40:01,701 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 18:40:01,702 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8458f04)
+18 Mar 2021 18:40:01,709 TRACE repository.ZborDBRepository 64 save - Saved 1 instances
+18 Mar 2021 18:40:01,710 TRACE repository.ZborDBRepository 69 save - Exit
+18 Mar 2021 18:40:01,710 TRACE repository.ZborDBRepository 30 findAll - Enter
+18 Mar 2021 18:40:01,710 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 18:40:01,711 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8458f04)
+18 Mar 2021 18:40:01,716 TRACE repository.ZborDBRepository 50 findAll - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}, Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}, Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}, Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}, Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}, Zbor{destinatie='destinatie100', dataSiOraPlecarii=2015-03-31, aeroport='aeroport100', nrLocuriDisponibile=100}])
+18 Mar 2021 20:29:23,945 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 20:29:23,957 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 20:29:23,957 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 20:29:23,958 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 20:29:23,960 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 20:29:23,961 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 20:29:24,177 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+18 Mar 2021 20:29:24,187 ERROR repository.AngajatDBRepository 68 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Angajati.idAngajat)
+18 Mar 2021 20:29:24,188 TRACE repository.AngajatDBRepository 71 save - Exit
+18 Mar 2021 20:29:24,189 TRACE repository.AngajatDBRepository 34 findAll - Enter
+18 Mar 2021 20:29:24,189 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 20:29:24,190 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+18 Mar 2021 20:29:24,193 TRACE repository.AngajatDBRepository 53 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}])
+18 Mar 2021 20:29:24,195 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 20:29:24,196 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 20:29:24,197 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 20:29:24,198 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 20:29:24,198 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 20:29:24,199 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 20:29:24,200 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8458f04)
+18 Mar 2021 20:29:24,202 ERROR repository.BiletDBRepository 72 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Bilet.idBilet)
+18 Mar 2021 20:29:24,204 TRACE repository.BiletDBRepository 75 save - Exit
+18 Mar 2021 20:29:24,205 TRACE repository.BiletDBRepository 34 findAll - Enter
+18 Mar 2021 20:29:24,205 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 20:29:24,206 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8458f04)
+18 Mar 2021 20:29:24,225 TRACE repository.BiletDBRepository 55 findAll - Exit with([Bilet{numeClient='numeClient1', numeTuristi='numeTuristi1', adresaClient='adresaClient1', nrLocuri=5, zborId=1}, Bilet{numeClient='numeClient2', numeTuristi='numeTuristi2', adresaClient='adresaClient2', nrLocuri=7, zborId=2}, Bilet{numeClient='numeClient3', numeTuristi='numeTuristi3', adresaClient='adresaClient3', nrLocuri=9, zborId=3}, Bilet{numeClient='numeClient4', numeTuristi='numeTuristi4', adresaClient='adresaClient4', nrLocuri=23, zborId=4}, Bilet{numeClient='numeClient5', numeTuristi='numeTuristi5', adresaClient='adresaClient5', nrLocuri=66, zborId=5}, Bilet{numeClient='numeClient100', numeTuristi='numeTuristi100', adresaClient='adresaClient100', nrLocuri=100, zborId=100}])
+18 Mar 2021 20:29:24,230 INFO  repository.ZborDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 20:29:24,232 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 20:29:24,234 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 20:29:24,234 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 20:29:24,235 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 20:29:24,235 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 20:29:24,237 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5386659f)
+18 Mar 2021 20:29:24,239 ERROR repository.ZborDBRepository 66 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Zboruri.IdZbor)
+18 Mar 2021 20:29:24,241 TRACE repository.ZborDBRepository 69 save - Exit
+18 Mar 2021 20:29:24,242 TRACE repository.ZborDBRepository 30 findAll - Enter
+18 Mar 2021 20:29:24,253 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 20:29:24,254 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5386659f)
+18 Mar 2021 20:29:24,268 TRACE repository.ZborDBRepository 50 findAll - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}, Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}, Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}, Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}, Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}, Zbor{destinatie='destinatie100', dataSiOraPlecarii=2015-03-31, aeroport='aeroport100', nrLocuriDisponibile=100}])
+18 Mar 2021 22:20:36,764 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 22:20:36,772 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 22:20:36,772 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 22:20:36,773 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 22:20:36,773 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 22:20:36,774 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 22:20:36,925 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+18 Mar 2021 22:20:36,930 ERROR repository.AngajatDBRepository 68 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Angajati.idAngajat)
+18 Mar 2021 22:20:36,931 TRACE repository.AngajatDBRepository 71 save - Exit
+18 Mar 2021 22:20:36,931 TRACE repository.AngajatDBRepository 34 findAll - Enter
+18 Mar 2021 22:20:36,932 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 22:20:36,932 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@712625fd)
+18 Mar 2021 22:20:36,934 TRACE repository.AngajatDBRepository 53 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}])
+18 Mar 2021 22:20:36,936 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 22:20:36,936 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 22:20:36,936 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 22:20:36,937 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 22:20:36,937 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 22:20:36,938 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 22:20:36,940 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8458f04)
+18 Mar 2021 22:20:36,941 ERROR repository.BiletDBRepository 72 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Bilet.idBilet)
+18 Mar 2021 22:20:36,943 TRACE repository.BiletDBRepository 75 save - Exit
+18 Mar 2021 22:20:36,943 TRACE repository.BiletDBRepository 34 findAll - Enter
+18 Mar 2021 22:20:36,944 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 22:20:36,944 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8458f04)
+18 Mar 2021 22:20:36,953 TRACE repository.BiletDBRepository 55 findAll - Exit with([Bilet{numeClient='numeClient1', numeTuristi='numeTuristi1', adresaClient='adresaClient1', nrLocuri=5, zborId=1}, Bilet{numeClient='numeClient2', numeTuristi='numeTuristi2', adresaClient='adresaClient2', nrLocuri=7, zborId=2}, Bilet{numeClient='numeClient3', numeTuristi='numeTuristi3', adresaClient='adresaClient3', nrLocuri=9, zborId=3}, Bilet{numeClient='numeClient4', numeTuristi='numeTuristi4', adresaClient='adresaClient4', nrLocuri=23, zborId=4}, Bilet{numeClient='numeClient5', numeTuristi='numeTuristi5', adresaClient='adresaClient5', nrLocuri=66, zborId=5}, Bilet{numeClient='numeClient100', numeTuristi='numeTuristi100', adresaClient='adresaClient100', nrLocuri=100, zborId=100}])
+18 Mar 2021 22:20:36,955 INFO  repository.ZborDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 22:20:36,955 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 22:20:36,956 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+18 Mar 2021 22:20:36,956 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+18 Mar 2021 22:20:36,957 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+18 Mar 2021 22:20:36,957 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+18 Mar 2021 22:20:36,958 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5386659f)
+18 Mar 2021 22:20:36,960 ERROR repository.ZborDBRepository 66 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: Zboruri.IdZbor)
+18 Mar 2021 22:20:36,960 TRACE repository.ZborDBRepository 69 save - Exit
+18 Mar 2021 22:20:36,961 TRACE repository.ZborDBRepository 30 findAll - Enter
+18 Mar 2021 22:20:36,961 TRACE repository.JdbcUtils 47 getConnection - Enter
+18 Mar 2021 22:20:36,961 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5386659f)
+18 Mar 2021 22:20:36,966 TRACE repository.ZborDBRepository 50 findAll - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}, Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}, Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}, Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}, Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}, Zbor{destinatie='destinatie100', dataSiOraPlecarii=2015-03-31, aeroport='aeroport100', nrLocuriDisponibile=100}])
+18 Mar 2021 22:23:09,815 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 22:23:09,821 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+18 Mar 2021 22:23:09,822 INFO  repository.ZborDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 12:54:19,207 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 12:54:19,222 INFO  repository.ZborDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 12:54:19,225 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 12:54:24,181 TRACE repository.AngajatDBRepository 54 findAll - Enter
+23 Mar 2021 12:54:24,182 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 12:54:24,182 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 12:54:24,182 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 12:54:24,183 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 12:54:24,183 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 12:54:24,437 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 12:54:24,444 TRACE repository.AngajatDBRepository 73 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}])
+23 Mar 2021 12:58:13,330 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 12:58:13,340 INFO  repository.ZborDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 12:58:13,348 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 12:58:18,607 TRACE repository.AngajatDBRepository 54 findAll - Enter
+23 Mar 2021 12:58:18,608 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 12:58:18,608 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 12:58:18,609 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 12:58:18,610 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 12:58:18,610 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 12:58:18,816 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 12:58:18,821 TRACE repository.AngajatDBRepository 73 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}])
+23 Mar 2021 13:15:40,274 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:15:40,282 INFO  repository.ZborDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:15:40,284 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:15:44,190 TRACE repository.AngajatDBRepository 54 findAll - Enter
+23 Mar 2021 13:15:44,190 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:15:44,191 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 13:15:44,191 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 13:15:44,193 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 13:15:44,193 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 13:15:44,405 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 13:15:44,413 TRACE repository.AngajatDBRepository 73 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}, Angajat{nume='a', prenume='a', parola='a'}])
+23 Mar 2021 13:15:44,414 TRACE repository.AngajatDBRepository 29 findOne - Enter
+23 Mar 2021 13:15:44,414 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:15:44,415 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 13:15:44,755 TRACE repository.ZborDBRepository 53 findAll - Enter
+23 Mar 2021 13:15:44,757 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:15:44,758 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 13:15:44,759 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 13:15:44,760 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 13:15:44,761 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 13:15:44,762 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:15:44,777 TRACE repository.ZborDBRepository 75 findAll - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}, Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}, Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}, Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}, Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}, Zbor{destinatie='destinatie100', dataSiOraPlecarii=2015-03-31, aeroport='aeroport100', nrLocuriDisponibile=100}])
+23 Mar 2021 13:15:54,072 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:15:54,073 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:15:54,073 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:15:54,075 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}])
+23 Mar 2021 13:17:06,690 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:17:06,698 INFO  repository.ZborDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:17:06,700 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:17:10,848 TRACE repository.AngajatDBRepository 54 findAll - Enter
+23 Mar 2021 13:17:10,849 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:10,849 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 13:17:10,850 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 13:17:10,851 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 13:17:10,851 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 13:17:10,997 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 13:17:11,002 TRACE repository.AngajatDBRepository 73 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}, Angajat{nume='a', prenume='a', parola='a'}])
+23 Mar 2021 13:17:11,003 TRACE repository.AngajatDBRepository 29 findOne - Enter
+23 Mar 2021 13:17:11,003 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:11,003 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 13:17:11,223 TRACE repository.ZborDBRepository 53 findAll - Enter
+23 Mar 2021 13:17:11,224 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:11,224 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 13:17:11,224 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 13:17:11,225 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 13:17:11,225 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 13:17:11,226 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:17:11,243 TRACE repository.ZborDBRepository 75 findAll - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}, Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}, Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}, Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}, Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}, Zbor{destinatie='destinatie100', dataSiOraPlecarii=2015-03-31, aeroport='aeroport100', nrLocuriDisponibile=100}])
+23 Mar 2021 13:17:19,201 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:17:19,202 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:19,203 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:17:19,204 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([])
+23 Mar 2021 13:17:21,933 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:17:21,933 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:21,933 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:17:21,934 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([])
+23 Mar 2021 13:17:30,927 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:17:30,928 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:30,928 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:17:30,928 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([])
+23 Mar 2021 13:17:44,038 INFO  repository.AngajatDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:17:44,046 INFO  repository.ZborDBRepository 20 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:17:44,049 INFO  repository.BiletDBRepository 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db} 
+23 Mar 2021 13:17:47,586 TRACE repository.AngajatDBRepository 54 findAll - Enter
+23 Mar 2021 13:17:47,586 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:47,586 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 13:17:47,587 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 13:17:47,587 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 13:17:47,588 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 13:17:47,731 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 13:17:47,735 TRACE repository.AngajatDBRepository 73 findAll - Exit with([Angajat{nume='numeAngajat1', prenume='prenumeAngajat1', parola='parola1'}, Angajat{nume='numeAngajat2', prenume='prenumeAngajat2', parola='parola2'}, Angajat{nume='numeAngajat3', prenume='prenumeAngajat3', parola='parola3'}, Angajat{nume='numeAngajat4', prenume='prenumeAngajat4', parola='parola4'}, Angajat{nume='numeAngajat5', prenume='prenumeAngajat5', parola='parola5'}, Angajat{nume='numeAngajat100', prenume='prenumeAngajat100', parola='parola100'}, Angajat{nume='a', prenume='a', parola='a'}])
+23 Mar 2021 13:17:47,735 TRACE repository.AngajatDBRepository 29 findOne - Enter
+23 Mar 2021 13:17:47,735 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:47,735 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@86a5fca)
+23 Mar 2021 13:17:47,966 TRACE repository.ZborDBRepository 53 findAll - Enter
+23 Mar 2021 13:17:47,967 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:47,967 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 13:17:47,968 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 13:17:47,968 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 13:17:47,969 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 13:17:47,970 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:17:47,985 TRACE repository.ZborDBRepository 75 findAll - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}, Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}, Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}, Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}, Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}, Zbor{destinatie='destinatie100', dataSiOraPlecarii=2015-03-31, aeroport='aeroport100', nrLocuriDisponibile=100}])
+23 Mar 2021 13:17:56,301 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:17:56,301 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:17:56,302 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:17:56,303 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([Zbor{destinatie='destinatie1', dataSiOraPlecarii=2021-03-01, aeroport='aeroport1', nrLocuriDisponibile=3}])
+23 Mar 2021 13:18:02,934 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:18:02,934 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:02,934 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:18:02,935 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([Zbor{destinatie='destinatie2', dataSiOraPlecarii=2021-03-09, aeroport='aeroport2', nrLocuriDisponibile=5}])
+23 Mar 2021 13:18:07,057 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:18:07,057 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:07,058 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:18:07,058 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([Zbor{destinatie='destinatie3', dataSiOraPlecarii=2021-03-18, aeroport='aeroport3', nrLocuriDisponibile=6}])
+23 Mar 2021 13:18:11,092 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:18:11,092 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:11,092 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:18:11,093 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([Zbor{destinatie='destinatie4', dataSiOraPlecarii=2021-03-24, aeroport='aeroport4', nrLocuriDisponibile=7}])
+23 Mar 2021 13:18:15,183 TRACE repository.ZborDBRepository 104 filterByAeroport - Enter
+23 Mar 2021 13:18:15,183 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:15,183 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:18:15,184 TRACE repository.ZborDBRepository 127 filterByAeroport - Exit with([Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=8}])
+23 Mar 2021 13:18:28,577 TRACE repository.BiletDBRepository 34 findAll - Enter
+23 Mar 2021 13:18:28,577 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:28,577 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+23 Mar 2021 13:18:28,578 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/user/Documents/facultate/# An 2 semestrul 2/Medii de proiectare si programare/Laborator/Java/Laborator4/AgentieDeTurism.db
+23 Mar 2021 13:18:28,578 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+23 Mar 2021 13:18:28,578 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+23 Mar 2021 13:18:28,579 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24c71099)
+23 Mar 2021 13:18:28,590 TRACE repository.BiletDBRepository 55 findAll - Exit with([Bilet{numeClient='numeClient1', numeTuristi='numeTuristi1', adresaClient='adresaClient1', nrLocuri=5, zborId=1}, Bilet{numeClient='numeClient2', numeTuristi='numeTuristi2', adresaClient='adresaClient2', nrLocuri=7, zborId=2}, Bilet{numeClient='numeClient3', numeTuristi='numeTuristi3', adresaClient='adresaClient3', nrLocuri=9, zborId=3}, Bilet{numeClient='numeClient4', numeTuristi='numeTuristi4', adresaClient='adresaClient4', nrLocuri=23, zborId=4}, Bilet{numeClient='numeClient5', numeTuristi='numeTuristi5', adresaClient='adresaClient5', nrLocuri=66, zborId=5}, Bilet{numeClient='numeClient100', numeTuristi='numeTuristi100', adresaClient='adresaClient100', nrLocuri=100, zborId=100}])
+23 Mar 2021 13:18:28,590 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:28,591 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24c71099)
+23 Mar 2021 13:18:28,598 TRACE repository.BiletDBRepository 70 save - Saved 1 instances
+23 Mar 2021 13:18:28,598 TRACE repository.BiletDBRepository 75 save - Exit
+23 Mar 2021 13:18:28,598 TRACE repository.ZborDBRepository 26 findOne - Enter
+23 Mar 2021 13:18:28,598 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:28,598 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:18:28,600 TRACE repository.ZborDBRepository 132 update - Enter Update Flight Zbor{destinatie='destinatie5', dataSiOraPlecarii=2021-03-14, aeroport='aeroport5', nrLocuriDisponibile=7} 
+23 Mar 2021 13:18:28,601 TRACE repository.JdbcUtils 47 getConnection - Enter
+23 Mar 2021 13:18:28,601 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22082dc3)
+23 Mar 2021 13:18:28,607 TRACE repository.ZborDBRepository 140 update - Updates 1 instances
+23 Mar 2021 13:18:28,607 TRACE repository.ZborDBRepository 145 update - Exit

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="298.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BuyController">
+    <children>
+        <TextField fx:id="txtNumeClient" layoutX="125.0" layoutY="52.0" />
+        <TextField fx:id="txtNumeTuristi" layoutX="125.0" layoutY="96.0" />
+        <TextField fx:id="txtAdresaClient" layoutX="125.0" layoutY="144.0" />
+        <TextField fx:id="txtNrLocuri" layoutX="125.0" layoutY="187.0" />
+        <Label layoutX="32.0" layoutY="56.0" text="Nume client:" />
+        <Label layoutX="32.0" layoutY="100.0" text="Nume turisti:" />
+        <Label layoutX="26.0" layoutY="148.0" prefHeight="17.0" prefWidth="82.0" text="Adresa client" />
+        <Label layoutX="39.0" layoutY="191.0" text="Nr locuri:" />
+        <Button layoutX="211.0" layoutY="243.0" mnemonicParsing="false" onAction="#handleBuy" text="cumpara" />
+    </children>
+</AnchorPane>

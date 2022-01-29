@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Button layoutX="487.0" layoutY="48.0" mnemonicParsing="false" onAction="#logOut" text="log out" />
+      <TableView fx:id="tableZboruri" layoutX="26.0" layoutY="100.0" prefHeight="200.0" prefWidth="448.0">
+        <columns>
+          <TableColumn fx:id="zborDestinatie" prefWidth="93.33332824707031" text="Destinatie" />
+          <TableColumn fx:id="zborDataSiOra" prefWidth="124.0" text="Data si ora plecarii" />
+            <TableColumn fx:id="zborAeroport" prefWidth="98.0" text="Aeroport" />
+            <TableColumn fx:id="zborNrLocuri" prefWidth="132.66665649414062" text="Nr locuri disponibile" />
+        </columns>
+      </TableView>
+      <Button layoutX="35.0" layoutY="329.0" mnemonicParsing="false" onAction="#loadSearchStage" text="search" />
+   </children>
+</AnchorPane>
