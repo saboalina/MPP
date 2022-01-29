@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="362.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SearchController">
+   <children>
+      <DatePicker fx:id="date" layoutX="108.0" layoutY="95.0" />
+      <TableView fx:id="tableFlights" layoutX="23.0" layoutY="131.0" prefHeight="200.0" prefWidth="360.0">
+        <columns>
+          <TableColumn fx:id="destination" prefWidth="112.0" text="Destination" />
+          <TableColumn fx:id="departureTime" prefWidth="127.33332824707031" text="Departure Time" />
+            <TableColumn fx:id="noSeats" prefWidth="120.0" text="NoSeats" />
+        </columns>
+      </TableView>
+      <Label layoutX="30.0" layoutY="83.0" prefHeight="25.0" prefWidth="45.0" text="Date" />
+      <Label layoutX="23.0" layoutY="35.0" text="Destination" />
+      <TextField fx:id="txtDestination" layoutX="108.0" layoutY="39.0" prefHeight="25.0" prefWidth="174.0" />
+      <Button layoutX="305.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleSearch" prefHeight="25.0" prefWidth="75.0" text="Search" />
+      <Button layoutX="397.0" layoutY="305.0" mnemonicParsing="false" onAction="#loadBuyStage" prefHeight="25.0" prefWidth="229.0" text=" Buy ticket" />
+      <Label layoutX="396.0" layoutY="111.0" text="Client name" />
+      <Label layoutX="396.0" layoutY="163.0" text="Tourists name" />
+      <Label layoutX="396.0" layoutY="213.0" text="Client address" />
+      <Label layoutX="396.0" layoutY="262.0" text="No seats" />
+      <TextField fx:id="txtClientName" layoutX="477.0" layoutY="107.0" />
+      <TextField fx:id="txtTouristsName" layoutX="477.0" layoutY="159.0" />
+      <TextField fx:id="txtClientAddress" layoutX="477.0" layoutY="209.0" />
+      <TextField fx:id="txtNoSeats" layoutX="477.0" layoutY="258.0" />
+   </children>
+</AnchorPane>
