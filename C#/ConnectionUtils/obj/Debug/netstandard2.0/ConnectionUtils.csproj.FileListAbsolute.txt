@@ -1,0 +1,9 @@
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\bin\Debug\netstandard2.0\ConnectionUtils.deps.json
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\bin\Debug\netstandard2.0\ConnectionUtils.dll
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\bin\Debug\netstandard2.0\ConnectionUtils.pdb
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\obj\Debug\netstandard2.0\ConnectionUtils.csprojAssemblyReference.cache
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\obj\Debug\netstandard2.0\ConnectionUtils.AssemblyInfoInputs.cache
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\obj\Debug\netstandard2.0\ConnectionUtils.AssemblyInfo.cs
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\obj\Debug\netstandard2.0\ConnectionUtils.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\obj\Debug\netstandard2.0\ConnectionUtils.dll
+C:\Users\user\Documents\facultate\# An 2 semestrul 2\Medii de proiectare si programare\Laborator\C#\Laborator3\ConnectionUtils\obj\Debug\netstandard2.0\ConnectionUtils.pdb
