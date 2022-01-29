@@ -1,0 +1,9 @@
+rootProject.name = 'LabRestServer'
+include 'Model'
+include 'Networking'
+include 'Persistence'
+include 'RestServices'
+include 'Server'
+include 'Services'
+include 'Server'
+

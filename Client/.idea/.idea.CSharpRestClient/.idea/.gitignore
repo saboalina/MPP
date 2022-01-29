@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.CSharpRestClient.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../../../:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\.idea\.idea.CSharpRestClient\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

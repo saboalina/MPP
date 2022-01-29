@@ -1,0 +1,22 @@
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\bin\Debug\CSharpRestClient.exe
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\bin\Debug\CSharpRestClient.pdb
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.csprojAssemblyReference.cache
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.csproj.CoreCompileInputs.cache
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.csproj.CopyComplete
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.exe
+C:\Users\ioana\OneDrive\Documents\Facultate\Semestrul 4\Medii de Proiectare si Programare\Curs\Curs10\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.pdb
+D:\CSharpRestClient\CSharpRestClient\bin\Debug\CSharpRestClient.exe
+D:\CSharpRestClient\CSharpRestClient\bin\Debug\CSharpRestClient.pdb
+D:\CSharpRestClient\CSharpRestClient\bin\Debug\Newtonsoft.Json.dll
+D:\CSharpRestClient\CSharpRestClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\CSharpRestClient\CSharpRestClient\bin\Debug\Newtonsoft.Json.xml
+D:\CSharpRestClient\CSharpRestClient\bin\Debug\System.Net.Http.Formatting.xml
+D:\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.csprojAssemblyReference.cache
+D:\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.csproj.CoreCompileInputs.cache
+D:\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.csproj.CopyComplete
+D:\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.exe
+D:\CSharpRestClient\CSharpRestClient\obj\x86\Debug\CSharpRestClient.pdb
